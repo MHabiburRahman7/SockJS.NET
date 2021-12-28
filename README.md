@@ -1,3 +1,13 @@
+Reason why I Fork and modify
+==========
+https://docs.microsoft.com/en-us/dotnet/standard/net-standard
+Since my current project is built based on .Net Framework and they said that NET Framework doesn't support .NET Standard 2.1,
+I decided to tweak this project a little bit to make it worked in NET Framework 4.8
+
+To distinguish with the existing project without dispose the original author,
+I decided to name project namespace with `syp.biz.SockJS.NET.Framework`
+While the original namespace was `syp.biz.SockJS.NET`
+
 SockJS.NET
 ==========
 An asynchronous .NET implementation of the SockJS client
