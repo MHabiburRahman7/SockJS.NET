@@ -3,8 +3,8 @@ using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using syp.biz.SockJS.NET.Client;
-using syp.biz.SockJS.NET.Common.Interfaces;
+using syp.biz.SockJS.NET.Framework.Client;
+using syp.biz.SockJS.NET.Framework.Common.Interfaces;
 
 namespace syp.biz.SockJS.NET.Test
 {
@@ -24,7 +24,7 @@ namespace syp.biz.SockJS.NET.Test
                     {"application-key", "foo-bar"}
                 };
 
-                var sockJs = (IClient)new Client.SockJS(config);
+                var sockJs = (IClient)new Framework.Client.SockJS(config);
 
                 sockJs.Connected += async (sender, e) =>
                 {

@@ -3,7 +3,7 @@ using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using syp.biz.SockJS.NET.Common.Interfaces;
+using syp.biz.SockJS.NET.Framework.Common.Interfaces;
 
 namespace syp.biz.SockJS.NET.Test
 {

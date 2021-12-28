@@ -9,11 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\syp.biz.SockJS.NET.Client\syp.biz.SockJS.NET.Client.csproj" />
+    <Folder Include="Properties\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SockJS.NET.Framework\syp.biz.SockJS.NET.Framework.Client\syp.biz.SockJS.NET.Framework.Client.csproj" />
+    <ProjectReference Include="..\..\SockJS.NET.Framework\syp.biz.SockJS.NET.Framework.Common\syp.biz.SockJS.NET.Framework.Common.csproj" />
+    <ProjectReference Include="..\syp.biz.SockJS.NET.Framework.Client\syp.biz.SockJS.NET.Framework.Client.csproj" />
+    <ProjectReference Include="..\syp.biz.SockJS.NET.Framework.Common\syp.biz.SockJS.NET.Framework.Common.csproj" />
   </ItemGroup>
 
 </Project>
